@@ -1,0 +1,19 @@
+<?php session_start();error_reporting(E_ALL & ~E_NOTICE); $dbName="phplab_course_project";?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<fieldset align="right">
+ <legend align="center"> 
+Регистрационна форма </legend>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="left">
+<table align="bottom" border=0><td>
+&nbsp;<a href="index.php" title="Регистрация">Регистрация</a> <br>
+&nbsp;<a href="address.php" title="Въвеждане на адрес">Въвеждане на адрес</a> <br>
+&nbsp;<a href="notes.php">Бележка</a> <br>
+</table>
+</div>
+</fieldset>
